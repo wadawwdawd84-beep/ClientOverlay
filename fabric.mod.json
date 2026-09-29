@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "clientoverlay",
+  "version": "1.0.0",
+  "name": "ClientOverlay",
+  "description": "Client utility mod with spawner overlays, entity info, and detached camera",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.clientoverlay.ClientOverlayClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21"
+  }
+}
